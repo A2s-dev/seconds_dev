@@ -1,0 +1,33 @@
+.paginate-wrap {
+    width: 100%;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.global-paginate {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.page-items {
+    display: inline;
+    margin-right: 4px;
+}
+
+.page-links {
+    padding: 8px 14px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    &:hover {
+        color: #d0d0d0;
+    }
+}
+
+.edge {
+    color: #888;
+    cursor: default;
+}
+.currentPage {
+    background:rgba(175, 175, 175, 0.56);
+}

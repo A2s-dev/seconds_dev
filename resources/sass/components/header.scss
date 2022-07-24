@@ -1,0 +1,45 @@
+.global-header {
+    height: 9rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    font-family: "Carrois Gothic SC",  sans-serif;
+    mix-blend-mode: difference;
+
+    .header-title {
+        font-weight: 400;
+        font-size: 3.5em;
+    
+        a {
+            color: #fff;
+            &:hover {
+                color: #ccc;
+            }
+        }
+    }
+    
+    span {
+        color: #fff;
+        margin: 20px 0px 0px 10px;
+    }
+    
+    .header-search {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    
+    .header-search-inner {
+        width: 50%;
+        background: none;
+        border: none;
+        border-bottom: solid 1px #ffffff;
+        color: #ffffff;
+        &:focus {
+            outline: 0;
+            box-shadow: 0;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.index-wrap {
+    background: url(https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.index-container {
+    width: 100%;
+    font-family: "Noto Serif JP", serif;
+}
+
+.index-base {
+    width: 70%;
+    margin: 15px auto 15px auto;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.25rem;
+    background: white;
+    padding: 15px;
+
+    &:hover {
+        box-shadow: 3px 3px 15px grey;
+    }
+
+    & a {
+        color: #000000;
+    }
+}
+
+.index-head {
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid #777;
+
+    div:first-child {
+        font-size: 2em;
+        font-weight: bold;
+    }
+}
+
+.index-author{
+    text-align: right
+}
+
+.index-content {
+    padding: 10px;
+    line-height: 140%;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.index-detail {
+    position: relative;
+    width: 100%;
+    border-top: 1px dotted #777;
+    .i-detail_bookmarks{
+        position: absolute;
+        right: 10px;
+        bottom: 0px;
+    }
+}
+
+.index-empty{
+    width: 100%;
+    height: 5em;
+    font-size: 4em;
+    color: white;
+}

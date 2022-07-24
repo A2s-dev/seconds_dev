@@ -1,0 +1,15 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/all.js": "/js/all.js",
+    "/js/EditerLock.js": "/js/EditerLock.js",
+    "/js/DisableEnter.js": "/js/DisableEnter.js",
+    "/js/NavClose.js": "/js/NavClose.js",
+    "/js/NavOpen.js": "/js/NavOpen.js",
+    "/js/NavStyle.js": "/js/NavStyle.js",
+    "/js/Tooltips.js": "/js/Tooltips.js",
+    "/js/StrCount.js": "/js/StrCount.js",
+    "/js/Loader.js": "/js/Loader.js",
+    "/js/Geometry.js": "/js/Geometry.js",
+    "/js/Direction.js": "/js/Direction.js",
+    "/css/app.css": "/css/app.css"
+}

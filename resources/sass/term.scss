@@ -1,0 +1,45 @@
+@media screen and (min-width: 481px) {
+    .term-wrap {
+        width: 100%;
+    }
+
+    .term-container {
+        max-width: 60%;
+        margin: 0 auto 5em auto;
+        font-size: 17px;
+        font-family: Sylfaen, sans-serif;
+
+        li {
+            list-style: outside;
+        }
+    }
+
+    .term-title {
+        text-align: center;
+        font-weight: bold;
+        margin: 1em 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .term-wrap {
+        width: 100%;
+    }
+
+    .term-container {
+        width: 85%;
+        margin: 0 auto 5em auto;
+        font-size: 16px;
+        font-family: Sylfaen, sans-serif;
+
+        li {
+            list-style: outside;
+        }
+    }
+
+    .term-title {
+        text-align: center;
+        font-weight: bold;
+        margin: 1em 0;
+    }
+}

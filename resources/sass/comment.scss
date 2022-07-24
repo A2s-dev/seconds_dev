@@ -1,0 +1,65 @@
+.comment-wrap {
+    background: linear-gradient(to bottom, #282828, #131313);
+    background: -moz-linear-gradient(top, to bottom, #282828, #131313);
+    background: -webkit-linear-gradient(top, to bottom, #282828, #131313);
+    min-height: 100vh;
+}
+.comment-container {
+    width: 100%;
+}
+
+.comment-content {
+    width: 70%;
+    padding: 1.5em;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    border-bottom: 1px solid rgb(176, 176, 176);
+    color: white;
+
+    .c-content_info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        div:first-child {
+            font-size: 28px;
+            margin-right: 20px;
+        }
+    }
+
+    article {
+        font-size: 15px;
+        word-break: break-all;
+        white-space: normal;
+        overflow: hidden;
+    }
+    .c-content_delete{
+        margin-top: 13px;
+        float: right;
+
+        &:hover{
+            color: rgb(14, 162, 212);
+        }
+    }
+}
+
+.comment-back {
+    display: inline-block;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: 0.2s all;
+    z-index: 100;
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+
+    &:hover {
+        background: #555;
+        color: white;
+    }
+}

@@ -1,0 +1,99 @@
+/*--font--*/
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+@import url(https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600&display=swap);
+
+/*--Variables--*/
+@import "variables";
+
+/*--Bootstrap--*/
+@import "~bootstrap/scss/bootstrap";
+
+@import "auth.scss";
+@import "edit.scss";
+@import "home.scss";
+@import "novel.scss";
+@import "comment.scss";
+@import "contact.scss";
+@import "news.scss";
+@import "term.scss";
+
+@import "components/header.scss";
+@import "components/footer.scss";
+@import "components/flash.scss";
+@import "components/paginate.scss";
+@import "components/comment_modal.scss";
+@import "components/select_modal.scss";
+@import "components/loader.scss";
+@import "components/index.scss";
+
+/*--Overall--*/
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body:before {
+  content: "";
+  background: inherit;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+a:hover {
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button,
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  vertical-align: middle;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  text-align: inherit;
+  text-transform: inherit;
+}
+
+.centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

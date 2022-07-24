@@ -1,0 +1,31 @@
+.select-modal {
+    height: 170px;
+    width: 40% !important;
+    min-width: 400px !important;
+    border-radius: 10px;
+    text-align: initial;
+    overflow-y: hidden;
+}
+
+.s-modal_close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 35px;
+}
+
+.s-modal_wrap {
+    height: 100%;
+    text-align: center;
+
+    label {
+        font-size: 1.6em;
+        margin-bottom: 15px;
+    }
+}
+
+.modal-link {
+    float: right;
+    padding-top: 10px;
+}

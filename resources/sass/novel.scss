@@ -1,0 +1,160 @@
+.novel-wrap {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #282828, #131313);
+    background: -moz-linear-gradient(top, to bottom, #282828, #131313);
+    background: -webkit-linear-gradient(top, to bottom, #282828, #131313);
+    background-attachment: fixed;
+    color: white;
+}
+
+.novel-container {
+    width: 65%;
+    margin: 0 auto;
+    font-family: "Noto Serif JP", serif;
+}
+
+.novel-title {
+    font-size: 2rem;
+}
+
+.novel-author {
+    font-size: 1rem;
+    border-bottom: 1px solid rgb(145, 145, 145);
+
+    span {
+        float: right;
+    }
+}
+
+.novel-content {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.direction {
+    overflow-x: scroll;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    max-width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.novel-info {
+    border-top: 1px dashed rgb(145, 145, 145);
+    margin-bottom: 2em;
+
+    div {
+        font-size: 1rem;
+    }
+}
+
+.novel-menu {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: white;
+    border-radius: 3px;
+}
+
+.openModal,
+.novel-bm,
+.export,
+.novel-direction {
+    display: inline-block;
+    color: black;
+    width: 35px;
+    height: 35px;
+    transition: 0.2s all;
+
+    &:hover {
+        background: #555;
+        color: white;
+    }
+}
+
+.novel-comment {
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 480px) {
+    .novel-wrap {
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #282828, #131313);
+        background: -moz-linear-gradient(top, to bottom, #282828, #131313);
+        background: -webkit-linear-gradient(top, to bottom, #282828, #131313);
+        background-attachment: fixed;
+        color: white;
+    }
+
+    .novel-container {
+        width: 75%;
+        margin: 0 auto;
+        font-family: "Noto Serif JP", serif;
+    }
+
+    .novel-title {
+        font-size: 2rem;
+    }
+
+    .novel-author {
+        font-size: 1rem;
+        border-bottom: 1px solid rgb(145, 145, 145);
+
+        span {
+            float: right;
+        }
+    }
+
+    .novel-content {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .novel-info {
+        border-top: 1px dashed rgb(145, 145, 145);
+        margin-bottom: 2em;
+
+        div {
+            font-size: 1rem;
+        }
+    }
+
+    .novel-menu {
+        position: fixed;
+        bottom: 25px;
+        right: 7px;
+        background: white;
+        border-radius: 3px;
+    }
+
+    .openModal,
+    .novel-bm,
+    .export,
+    .novel-direction {
+        display: inline-block;
+        color: black;
+        width: 35px;
+        height: 35px;
+        transition: 0.2s all;
+
+        &:hover {
+            background: #555;
+            color: white;
+        }
+    }
+
+    .novel-comment {
+        border: 1px solid black;
+    }
+}
