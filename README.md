@@ -151,11 +151,3 @@ EC2:(nginx, php-fpm, mysql 8.0.27)
 <img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/40a5e3d4-852c-c953-29f7-2887a8ac5277.png">
 
 
-## 作者
-
-<img width="180" src="https://user-images.githubusercontent.com/71712059/158662896-bd2828fb-4b56-4e01-94dc-2ee52eacc393.JPG">
-
-- Yuuichi Mizuta
-- Wantedly：https://www.wantedly.com/id/yuuichi_mizuta
-- Twitter：https://twitter.com/yuuichimizuta
-- Qiita：https://qiita.com/yuuichimizuta
