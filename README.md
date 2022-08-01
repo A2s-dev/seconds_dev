@@ -5,9 +5,9 @@ URL：http://s3conds.com/
 
 <img width="1567" src="https://user-images.githubusercontent.com/109901039/182008460-373fd7c9-d17c-4b63-9b08-cc7865a5bf7a.png">
 
-## 画面遷移図
+## 画面遷移(チャート)図
 
-<img width="770" src="https://user-images.githubusercontent.com/71712059/156979018-5ee18640-72be-4e4d-bc48-0cb2315c357f.png">
+<img width="770" src="https://user-images.githubusercontent.com/109901039/182138772-67da77db-223f-4136-aa4f-ff1b9e022050.png">
 
 ## ERデータベース図
 
