@@ -69,7 +69,7 @@ EC2:(nginx, php-fpm, mysql 8.0.27)
 
 
 #### ホーム画面(Home)
-- ニュースの確認と各機能へのポータルとなる画面            ぽ                                                                                                          
+- ニュースの確認と各機能へのポータルとなる画面                                                                                                        
                                                                                                                               
 <img width="800" src="https://user-images.githubusercontent.com/109901039/182123842-4d3c62c4-d23d-4ae5-ae8f-37bdd9a74bea.png">
                                                                                                                              
@@ -79,6 +79,8 @@ EC2:(nginx, php-fpm, mysql 8.0.27)
 - 自身が過去に執筆した作品についてキーワード検索を行い、検索結果画面へ遷移
 
 <img width="800" src="https://user-images.githubusercontent.com/109901039/182129412-a30733aa-0af1-47b3-9443-95f395a51cd3.png">
+- 本文は製作者の作品のため、マスクしております。
+
 
 #### 検索結果画面
 - 投稿をクリックことで選択した作品のエディター画面へ遷移
@@ -92,7 +94,7 @@ EC2:(nginx, php-fpm, mysql 8.0.27)
 - 画面下部のリンク群から指定の機能へ遷移
 - 画面上部、画面下部のページネーションからページ移動ができます
 
-<img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/85e91257-4cad-04dd-0076-7281f35fd453.png">
+<img width="800" src="">
 
 #### 投稿詳細画面
 - 投稿記事右上のメニューから投稿の編集、投稿の削除ができます
@@ -100,13 +102,13 @@ EC2:(nginx, php-fpm, mysql 8.0.27)
 - ♥ボタンをクリックすると、いいねを残せます
 - コメントを入力し投稿できます
 
-<img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/a7346f70-7366-d867-8b7c-b85165b12d65.png">
+<img width="800" src="">
 
 #### 検索機能
 - 検索フォームからカテゴリ検索、キーワード検索ができます
 - タグをクリックすることで、タグ検索ができます
 
-<img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/729b1f68-bf17-7b9f-7dcb-6fbb09453a69.png">
+<img width="800" src="">
 
 #### マイページ
 - プロフィール、マイ投稿一覧を表示
