@@ -1,30 +1,21 @@
 # Seconds
 
-旅の思い出を投稿して、他ユーザーと共有できるWebアプリケーションです。
+小説家同士が作品の批評をし合うためのコミュニティサイトです。
 URL：http://s3conds.com/
 
-<img width="1567" alt="スクリーンショット 2022-03-19 1 51 26" src="https://user-images.githubusercontent.com/109901039/182008460-373fd7c9-d17c-4b63-9b08-cc7865a5bf7a.png">
-
-## 「Seconds」紹介記事
-
-#### ポートフォリオ開発の詳細をまとめております。
-
-↓　↓<br/>
-- ポートフォリオ開発について : https://qiita.com/yuuichimizuta/items/e8a8cf2bbecba7cba965
-
-<img width="400" alt="スクリーンショット 2022-03-22 2 33 51" src="https://user-images.githubusercontent.com/71712059/159331521-85a907dc-e37d-4a10-87c7-a4da5f6ec4fe.png">
+<img width="1567" src="https://user-images.githubusercontent.com/109901039/182008460-373fd7c9-d17c-4b63-9b08-cc7865a5bf7a.png">
 
 ## 画面遷移図
 
-<img width="770" alt="スクリーンショット 2022-03-07 0 02 49" src="https://user-images.githubusercontent.com/71712059/156979018-5ee18640-72be-4e4d-bc48-0cb2315c357f.png">
+<img width="770" src="https://user-images.githubusercontent.com/71712059/156979018-5ee18640-72be-4e4d-bc48-0cb2315c357f.png">
 
 ## ERデータベース図
 
-<img width="1000" alt="スクリーンショット 2022-03-06 23 59 11" src="https://user-images.githubusercontent.com/71712059/156979033-c7ac7776-f765-47ca-8855-183834a886a4.png">
+<img width="1000" src="https://user-images.githubusercontent.com/71712059/156979033-c7ac7776-f765-47ca-8855-183834a886a4.png">
 
 ## 本番環境構成図
 
-<img width="800" alt="スクリーンショット 2022-04-01 17 08 08" src="https://user-images.githubusercontent.com/71712059/161224368-3d8e207a-6e40-4b5b-905d-78ee2331776f.png">
+<img width="800" " src="https://user-images.githubusercontent.com/71712059/161224368-3d8e207a-6e40-4b5b-905d-78ee2331776f.png">
 
 ## 使用技術
 #### バックエンド
@@ -68,40 +59,40 @@ EC2:(nginx, php-fpm, mysql 8.0.27)
 - ニュース投稿機能：管理者のみ使用可能
 
 ## 機能・画面説明
-#### ホーム画面
-- ヘッダーのメニューから、ユーザー登録、ログイン画面遷移、ゲストログインができます
-- 中央の画像を左右にフェードさせることができます
-- 3枚目の画像からもユーザー登録、ログイン画面遷移、ゲストログインができます
-
-<img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/1b7f3495-210b-f0e0-dbfb-fba8f3d68d01.png">
-
-<img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/c094d89d-cc9c-a245-37b3-d6cbfcb24515.png">
-
 #### ユーザー登録・ログイン
-- Register(ユーザー登録)画面からユーザー登録ができる
-- Login(ログイン)画面からログイン・ゲストログインができる
+- Register(ユーザー登録)画面からユーザー登録が可能
+- Login(ログイン)画面からログイン・ゲストログインが可能
 
-<img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/1609e43d-48e0-dec1-3c04-1ce62b48ba13.png">
+<img width="800" src="https://user-images.githubusercontent.com/109901039/182008460-373fd7c9-d17c-4b63-9b08-cc7865a5bf7a.png">
 
-#### 投稿一覧画面
+<img width="800" src="https://user-images.githubusercontent.com/109901039/182119146-4374d854-6a30-4287-a186-53288ee249fe.png">
+
+
+#### ホーム画面(Home)
+- ニュースの確認と各機能へのポータルとなる画面            ぽ                                                                                                          
+                                                                                                                              
+<img width="800" src="https://user-images.githubusercontent.com/109901039/182123842-4d3c62c4-d23d-4ae5-ae8f-37bdd9a74bea.png">
+                                                                                                                             
+#### エディター画面(Editer)
+- 作品の執筆・削除・公開が可能
+- 執筆後の確認用に本文をロックすることが可能
+- 自身が過去に執筆した作品についてキーワード検索を行い、検索結果画面へ遷移
+
+<img width="800" src="https://user-images.githubusercontent.com/109901039/182129412-a30733aa-0af1-47b3-9443-95f395a51cd3.png">
+
+#### 検索結果画面
+- 投稿をクリックことで選択した作品のエディター画面へ遷移
+- 画面上部、画面下部のページネーションからページ移動が可能                                                    
+<img width="800" src="https://user-images.githubusercontent.com/109901039/182129423-fa8c0add-2265-460d-b02d-f61691fa74c2.png">
+
+#### 投稿一覧画面(Browse)
 - 自身や他ユーザーの投稿一覧を表示
-- ヘッダーのメニューからマイページ画面、投稿画面遷移、ログアウトができます
-- 検索フォームからカテゴリ検索、キーワード検索ができます
-- 投稿記事左上のプロフィール画像をクリックすることで、マイページに遷移できます
-- 投稿記事右上のメニューをクリックすることで、投稿編集画面・投稿削除画面に遷移できます
-- 画像、タイトル、本文をクリックすると、投稿詳細画面に遷移できます
-- タグをクリックすると、タグ検索ができます
-- ♥ボタンをクリックすると、いいねを残せます
-- 吹き出しボタンをクリックすると、投稿詳細画面のコメント入力に遷移します
-- 画面右下の紙飛行機ボタンをクリックすると、投稿画面に遷移します
-- 画面上部、画面下部のページネーションからページ移動ができます。
+- 画面左上のアプリタイトルをクリックすることで、ホーム画面に遷移できます
+- タイトル、本文をクリックすると、投稿詳細画面に遷移できます
+- 画面下部のリンク群から指定の機能へ遷移
+- 画面上部、画面下部のページネーションからページ移動ができます
 
 <img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/85e91257-4cad-04dd-0076-7281f35fd453.png">
-
-#### 投稿画面・投稿編集画面
-- 画像(png, jpeg, gif)、タイトル、所在地(カテゴリ)、タグ、本文の入力し投稿ができる
-
-<img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/7883e0e8-77d2-4632-ace5-a60e30596756.png">
 
 #### 投稿詳細画面
 - 投稿記事右上のメニューから投稿の編集、投稿の削除ができます
@@ -124,30 +115,24 @@ EC2:(nginx, php-fpm, mysql 8.0.27)
 - プロフィール右上のメニューをクリックすることで、プロフィール変更画面に遷移できます
 - フォロー中・フォロワーボタンをクリックすることで、フォロー中・フォロワー一覧に遷移できます
 
-<img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/0d3eeb1a-47f5-be83-8a9d-ad5a56ca8283.png">
+<img width="800" src="">
 
 #### プロフィール変更画面
 - 画像(png, jpeg, gif)、名前、メールアドレス、自己紹介を変更できます
 
-<img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/72536d31-2e7c-c7da-bb1b-fb1562ec9eb7.png">
+<img width="800" src="">
 
 #### フォロー中・フォロワー一覧画面
 - フォロー中・フォロワーの一覧を表示
 - 一覧からフォローしたり、外したりできます
 - 他ユーザーのマイページ、フォロー中・フォロワー一覧に遷移できます
 
-<img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/7dd2b5c3-d7ac-dbb5-8ddc-70a375161e91.png">
+<img width="800" src="">
 
-#### 投稿削除・退会機能のモーダル
+#### 退会機能
 - 投稿削除、退会をする際に最後の確認の為表示されます
 - 「削除する」「退会する」ボタンをクリックすることで、削除・退会できます
 
-<img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/b5ae23b3-9f7d-3adb-4944-944c324312e3.png">
-
-#### レスポンシブ対応
-
-- メディアクエリを使い、レスポンシブ対応をしっかり考えて実装したので、スマホでもストレス無く利用できます。
-
-<img width="800" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/891391/40a5e3d4-852c-c953-29f7-2887a8ac5277.png">
+<img width="800" src="">
 
 
