@@ -7,11 +7,11 @@ URL：http://s3conds.com/
 
 ## 画面遷移(チャート)図
 
-<img width="770" src="https://user-images.githubusercontent.com/109901039/182138772-67da77db-223f-4136-aa4f-ff1b9e022050.png">
+<img width="800" src="https://user-images.githubusercontent.com/109901039/182138772-67da77db-223f-4136-aa4f-ff1b9e022050.png">
 
-## ERデータベース図
+## ER図
 
-<img width="1000" src="https://user-images.githubusercontent.com/71712059/156979033-c7ac7776-f765-47ca-8855-183834a886a4.png">
+<img width="800" src="(https://user-images.githubusercontent.com/109901039/182151437-ff064813-0d29-405e-bbe2-c40e4cfd0f36.png">
 
 ## 本番環境構成図
 
