@@ -13,10 +13,6 @@ URL：http://s3conds.com/
 
 <img width="800" src="https://user-images.githubusercontent.com/109901039/182151437-ff064813-0d29-405e-bbe2-c40e4cfd0f36.png">
 
-## 本番環境構成図
-
-<img width="800" src="https://user-images.githubusercontent.com/71712059/161224368-3d8e207a-6e40-4b5b-905d-78ee2331776f.png">
-
 ## 使用技術
 #### バックエンド
 - php:7.4-fpm
