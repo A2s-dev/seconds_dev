@@ -11,7 +11,7 @@ URL：http://s3conds.com/
 
 ## ER図
 
-<img width="800" src="(https://user-images.githubusercontent.com/109901039/182151437-ff064813-0d29-405e-bbe2-c40e4cfd0f36.png">
+<img width="800" src="https://user-images.githubusercontent.com/109901039/182151437-ff064813-0d29-405e-bbe2-c40e4cfd0f36.png">
 
 ## 本番環境構成図
 
