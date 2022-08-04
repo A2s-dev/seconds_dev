@@ -1,7 +1,7 @@
 # Seconds
 
 小説家同士が作品の批評をし合うためのコミュニティサイトです
-※作者が日本語の文字が嫌いなため英語表記です
+#### ※作者が日本語の文字が嫌いなため英語表記です
 URL：http://s3conds.com/
 
 <img width="1567" src="https://user-images.githubusercontent.com/109901039/182008460-373fd7c9-d17c-4b63-9b08-cc7865a5bf7a.png">
@@ -13,6 +13,10 @@ URL：http://s3conds.com/
 ## ER図
 
 <img width="800" src="https://user-images.githubusercontent.com/109901039/182151437-ff064813-0d29-405e-bbe2-c40e4cfd0f36.png">
+
+## 開発期間
+- 要件定義~設計 5日
+- 実装~テスト 1か月
 
 ## 使用技術
 #### バックエンド
