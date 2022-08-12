@@ -1,7 +1,8 @@
 # Seconds
 
 小説家同士が作品の批評をし合うためのコミュニティサイトです
-#### ※作者が日本語の文字が嫌いなため英語表記です
+#### ※製作者が日本語の書体が嫌いなので英語表記です
+#### ※スマホ版のデザインは最適化されていません
 URL：http://s3conds.com/
 
 <img width="1567" src="https://user-images.githubusercontent.com/109901039/182008460-373fd7c9-d17c-4b63-9b08-cc7865a5bf7a.png">
